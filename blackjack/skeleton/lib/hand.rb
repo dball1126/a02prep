@@ -4,7 +4,7 @@ require_relative 'card'
 class Hand < Deck              # DO WE NEED THIS  ?? ?? ?? Maybe ASK
   # This is a *factory method* that creates and returns a `Hand`
   # object.
-  def self.deal_from(deck)
+  def self.deal_from(deck)    #WHERE IS THE HAND COMING FORM??
 
     Hand.new(deck.take(2))
   end
